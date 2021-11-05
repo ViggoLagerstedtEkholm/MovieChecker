@@ -4,6 +4,7 @@ import {useParams} from "react-router";
 import MainPanel from "./MainPanel";
 import InfoPanel from "./InfoPanel";
 import {Loading} from "../State/Loading";
+import NotFound from "../Error/NotFound";
 
 function MovieInformation() {
     const { ID } = useParams();
@@ -38,33 +39,35 @@ function MovieInformation() {
             setProductionCompanies(response['production_companies']);
             setLoading(false);
         }).catch(() =>{
-          alert('Something went wrong!')
+          alert('Something went wrong!');
         });
     }, [ID])
 
     return (
         <div className="container">
-            {!loading ? <div>
-                <div className="title-box">
-                    <div className="movie-header-text">{title}</div>
-                </div>
-                <hr/>
+            {title ? <div>
+                {!loading ? <div>
+                    <div className="title-box">
+                        <div className="movie-header-text">{title}</div>
+                    </div>
+                    <hr/>
 
-                <div className="content-container-movie">
-                    <MainPanel trailers={trailers}
-                               overview={overview}
-                               tagline={tagline}
-                                status={status}/>
+                    <div className="content-container-movie">
+                        <MainPanel trailers={trailers}
+                                   overview={overview}
+                                   tagline={tagline}
+                                   status={status}/>
 
-                    <InfoPanel title={title}
-                               budget={budget}
-                               revenue={revenue}
-                               runtime={runtime}
-                               homePage={homePage}
-                               releaseDate={releaseDate}
-                               companies={companies}/>
-                </div>
-            </div> : <Loading/>}
+                        <InfoPanel title={title}
+                                   budget={budget}
+                                   revenue={revenue}
+                                   runtime={runtime}
+                                   homePage={homePage}
+                                   releaseDate={releaseDate}
+                                   companies={companies}/>
+                    </div>
+                </div> : <Loading/>}
+            </div> : <NotFound/>}
         </div>
     );
 }

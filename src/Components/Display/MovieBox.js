@@ -59,7 +59,7 @@ export const MovieBox = ({results, filter}) => {
                     </div>
 
                     <div className="content-card-info-buttons">
-                        <form action={"/info/" + id} >
+                        <form action={"/microlabscasefrontend/#/info/" + id} >
                             <button className="button-style-1" type="submit">Movie Information</button>
                         </form>
                     </div>

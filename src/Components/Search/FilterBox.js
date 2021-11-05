@@ -43,7 +43,12 @@ function FilterBox({onSetFilters, showFilterBox}) {
 
     const onSubmit = e => {
         e.preventDefault();
-        const filter = {Page: 1, Search: search, Order: order, MinRating : rating, MinRatingCount : count};
+        const filter = {
+            Page: 1,
+            Search: search,
+            Order: order,
+            MinRating : rating,
+            MinRatingCount : count};
 
         onSetFilters(filter);
         toggle();

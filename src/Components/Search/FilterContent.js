@@ -30,11 +30,13 @@ const FilterContent = ({displayBox, showFilterBox}) => {
         filter.MinRating = updatedFilter.MinRating;
         filter.Order = updatedFilter.Order;
         filter.MinRatingCount = updatedFilter.MinRatingCount;
+        doSearch();
     }
 
     const onGoToPage = (page) => {
         filter.Page = parseInt(page, 10);
         setPaginationLoading(true);
+        doSearch();
     }
 
     const onNextPage = () =>{
@@ -45,7 +47,6 @@ const FilterContent = ({displayBox, showFilterBox}) => {
     const onPreviousPage = () =>{
         filter.Page = filter.Page - 1;
         setPaginationLoading(true);
-
     }
 
     const doSearch = () => {
