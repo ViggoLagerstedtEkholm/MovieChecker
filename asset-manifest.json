@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/microlabscasefrontend/static/css/main.6fbb2bd9.chunk.css",
-    "main.js": "/microlabscasefrontend/static/js/main.5c7efb79.chunk.js",
-    "main.js.map": "/microlabscasefrontend/static/js/main.5c7efb79.chunk.js.map",
+    "main.js": "/microlabscasefrontend/static/js/main.0c08fe80.chunk.js",
+    "main.js.map": "/microlabscasefrontend/static/js/main.0c08fe80.chunk.js.map",
     "runtime-main.js": "/microlabscasefrontend/static/js/runtime-main.64ec5ffb.js",
     "runtime-main.js.map": "/microlabscasefrontend/static/js/runtime-main.64ec5ffb.js.map",
-    "static/js/2.bdd9a272.chunk.js": "/microlabscasefrontend/static/js/2.bdd9a272.chunk.js",
-    "static/js/2.bdd9a272.chunk.js.map": "/microlabscasefrontend/static/js/2.bdd9a272.chunk.js.map",
+    "static/js/2.295fd667.chunk.js": "/microlabscasefrontend/static/js/2.295fd667.chunk.js",
+    "static/js/2.295fd667.chunk.js.map": "/microlabscasefrontend/static/js/2.295fd667.chunk.js.map",
     "index.html": "/microlabscasefrontend/index.html",
     "static/css/main.6fbb2bd9.chunk.css.map": "/microlabscasefrontend/static/css/main.6fbb2bd9.chunk.css.map",
-    "static/js/2.bdd9a272.chunk.js.LICENSE.txt": "/microlabscasefrontend/static/js/2.bdd9a272.chunk.js.LICENSE.txt"
+    "static/js/2.295fd667.chunk.js.LICENSE.txt": "/microlabscasefrontend/static/js/2.295fd667.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.64ec5ffb.js",
-    "static/js/2.bdd9a272.chunk.js",
+    "static/js/2.295fd667.chunk.js",
     "static/css/main.6fbb2bd9.chunk.css",
-    "static/js/main.5c7efb79.chunk.js"
+    "static/js/main.0c08fe80.chunk.js"
   ]
 }
