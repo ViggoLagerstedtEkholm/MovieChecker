@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/microlabscasefrontend/static/css/main.6fbb2bd9.chunk.css",
-    "main.js": "/microlabscasefrontend/static/js/main.c90f0933.chunk.js",
-    "main.js.map": "/microlabscasefrontend/static/js/main.c90f0933.chunk.js.map",
+    "main.js": "/microlabscasefrontend/static/js/main.019a4ecd.chunk.js",
+    "main.js.map": "/microlabscasefrontend/static/js/main.019a4ecd.chunk.js.map",
     "runtime-main.js": "/microlabscasefrontend/static/js/runtime-main.64ec5ffb.js",
     "runtime-main.js.map": "/microlabscasefrontend/static/js/runtime-main.64ec5ffb.js.map",
     "static/js/2.bdd9a272.chunk.js": "/microlabscasefrontend/static/js/2.bdd9a272.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.64ec5ffb.js",
     "static/js/2.bdd9a272.chunk.js",
     "static/css/main.6fbb2bd9.chunk.css",
-    "static/js/main.c90f0933.chunk.js"
+    "static/js/main.019a4ecd.chunk.js"
   ]
 }
