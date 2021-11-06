@@ -4,7 +4,7 @@ import PaginationBox from "./Pagination/PaginationBox";
 import {FindMovieSearch, FetchMovies} from "../Services/MovieService";
 import {Info} from "./Pagination/Info";
 import Message from "../Alerts/Message";
-import {Loading} from "../State/Loading";
+import {Loading} from "./State/Loading";
 import {FilterContext} from "../Context/FilterContext";
 
 const FilterContent = ({displayBox, showFilterBox}) => {

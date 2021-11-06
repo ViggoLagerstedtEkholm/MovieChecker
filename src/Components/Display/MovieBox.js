@@ -1,4 +1,4 @@
-import {NoResults} from "../Alerts/NoResults";
+import {NoResults} from "../Search/NoResults";
 import {HighlightText} from "../Regex/HighlightText";
 import missingImage from "../../Images/NO_IMAGE_FOUND.png";
 

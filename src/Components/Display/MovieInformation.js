@@ -3,7 +3,7 @@ import {GetMovieInformation} from "../Services/MovieService";
 import {useParams} from "react-router";
 import MainPanel from "./MainPanel";
 import InfoPanel from "./InfoPanel";
-import {Loading} from "../State/Loading";
+import {Loading} from "../Search/State/Loading";
 import NotFound from "../Error/NotFound";
 
 function MovieInformation() {
