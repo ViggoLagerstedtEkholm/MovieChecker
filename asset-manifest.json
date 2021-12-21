@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MicroLabAA-front-end-case-React/static/css/main.6fbb2bd9.chunk.css",
-    "main.js": "/MicroLabAA-front-end-case-React/static/js/main.4a815324.chunk.js",
-    "main.js.map": "/MicroLabAA-front-end-case-React/static/js/main.4a815324.chunk.js.map",
-    "runtime-main.js": "/MicroLabAA-front-end-case-React/static/js/runtime-main.2840c93f.js",
-    "runtime-main.js.map": "/MicroLabAA-front-end-case-React/static/js/runtime-main.2840c93f.js.map",
-    "static/js/2.295fd667.chunk.js": "/MicroLabAA-front-end-case-React/static/js/2.295fd667.chunk.js",
-    "static/js/2.295fd667.chunk.js.map": "/MicroLabAA-front-end-case-React/static/js/2.295fd667.chunk.js.map",
-    "index.html": "/MicroLabAA-front-end-case-React/index.html",
-    "static/css/main.6fbb2bd9.chunk.css.map": "/MicroLabAA-front-end-case-React/static/css/main.6fbb2bd9.chunk.css.map",
-    "static/js/2.295fd667.chunk.js.LICENSE.txt": "/MicroLabAA-front-end-case-React/static/js/2.295fd667.chunk.js.LICENSE.txt"
+    "main.css": "/MovieChecker/static/css/main.6fbb2bd9.chunk.css",
+    "main.js": "/MovieChecker/static/js/main.4a815324.chunk.js",
+    "main.js.map": "/MovieChecker/static/js/main.4a815324.chunk.js.map",
+    "runtime-main.js": "/MovieChecker/static/js/runtime-main.7621726e.js",
+    "runtime-main.js.map": "/MovieChecker/static/js/runtime-main.7621726e.js.map",
+    "static/js/2.295fd667.chunk.js": "/MovieChecker/static/js/2.295fd667.chunk.js",
+    "static/js/2.295fd667.chunk.js.map": "/MovieChecker/static/js/2.295fd667.chunk.js.map",
+    "index.html": "/MovieChecker/index.html",
+    "static/css/main.6fbb2bd9.chunk.css.map": "/MovieChecker/static/css/main.6fbb2bd9.chunk.css.map",
+    "static/js/2.295fd667.chunk.js.LICENSE.txt": "/MovieChecker/static/js/2.295fd667.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2840c93f.js",
+    "static/js/runtime-main.7621726e.js",
     "static/js/2.295fd667.chunk.js",
     "static/css/main.6fbb2bd9.chunk.css",
     "static/js/main.4a815324.chunk.js"
